@@ -10,7 +10,6 @@ playlist_id = ""
 
 # List of songs to add (replace with your own songs)
 song_list = [
-    "The Middle - Zedd, Maren Morris, Grey"
 ]
 
 # Search and add songs to the playlist
