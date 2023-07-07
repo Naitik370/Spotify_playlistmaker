@@ -22,7 +22,7 @@ playlist = sp.user_playlist_create(user_id, playlist_name, public=False, descrip
 
 # List of songs to add (replace with your own songs)
 # Get song recommendations from ChatGPT
-chat_prompt = "Give me a two hour long playlist song for gym, songs should be english, some songs of Alan Walker, Avicii, Imagine Dragons. Give that in a python list"
+chat_prompt = "Give me a playlist for spotify songs. Give that in a python list"
 response = openai.Completion.create(
     engine='davinci',
     prompt=chat_prompt,
